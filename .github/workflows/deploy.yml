@@ -1,0 +1,25 @@
+name: Deploy Docs
+on:
+  push:
+    branches: [main]
+    paths: 
+      - '/docs'  # 监听docs目录变化
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # MkDocs 部署流程（方案A）
+      - name: Setup Python
+        if: matrix.tool == 'mkdocs'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Build with MkDocs
+        if: matrix.tool == 'mkdocs'
+        run: |
+          pip install mkdocs-material
+          mkdocs build --site-dir public
