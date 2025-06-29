@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
     paths: 
-      - '/docs'  # 监听docs目录变化
+      - 'docs/**'  # 监听docs目录变化
 
 jobs:
   build-deploy:
