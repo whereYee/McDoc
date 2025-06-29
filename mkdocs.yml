@@ -1,0 +1,78 @@
+site_name: 和而不同
+site_url: https://mydomain.org
+theme:
+  name: material
+  font: false
+
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: 关闭自动模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: indigo
+      # teal
+      toggle:
+        icon: material/toggle-switch
+        name: 切换至夜间模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      # teal
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: 切换至日间模式
+  features:
+    - announce.dismiss
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.expand
+    - navigation.indexes
+    - content.tabs.link
+    - content.tooltips
+    - content.code.copy
+    - content.code.select
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+
+plugins:
+  - search
+  - blog
+  - tags
+nav:
+  - 简介:
+      - index.md
+  - 快速开始:
+      - quickstart/index.md
+      - quickstart/whatcountry.md
+  - 玩家常识:
+      - player/index.md
+  - 关于服务器:
+      - server/index.md
+      - server/rule.md
+extra:
+  alternate:
+    - name: 简体中文
+      link: /cn
+      lang: zh
+    - name: English
+      link: /en
+      lang: en
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
