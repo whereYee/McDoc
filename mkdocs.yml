@@ -63,6 +63,8 @@ nav:
   - 关于服务器:
       - server/index.md
       - server/rule.md
+      - server/dev.md
+  
 extra:
   alternate:
     - name: 简体中文
