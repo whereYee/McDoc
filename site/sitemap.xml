@@ -2,86 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mydomain.org/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/blog/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/cn/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/en/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/en/player/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/en/player/AI%E5%AF%B9%E8%AF%9D/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/en/player/%E5%8F%91%E5%B1%95/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/en/player/%E5%9B%BD%E5%AE%B6/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/en/player/%E5%AE%9E%E4%BD%93%E4%BA%92%E5%8A%A8/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/en/player/%E6%83%85%E6%8A%A5/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/en/player/%E6%88%98%E8%88%B0/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/en/player/%E6%98%9F%E9%99%85/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/en/player/%E7%A7%91%E6%8A%80/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/player/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/player/country/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/player/plugin/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/player/plugin/list/</loc>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/quickstart/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/quickstart/whatcountry/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/server/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/server/dev/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/server/op/</loc>
+         <lastmod>2025-07-16</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/server/rule/</loc>
-         <lastmod>2025-07-03</lastmod>
+         <lastmod>2025-07-16</lastmod>
     </url>
 </urlset>
