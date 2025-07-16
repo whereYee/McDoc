@@ -1,25 +1,29 @@
-name: Deploy Docs
+name: ci 
 on:
   push:
-    branches: [main]
-    paths: 
-      - 'docs/**'  # 监听docs目录变化
-
+    branches:
+      - master 
+      - main
+permissions:
+  contents: write
 jobs:
-  build-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      # MkDocs 部署流程（方案A）
-      - name: Setup Python
-        if: matrix.tool == 'mkdocs'
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - name: Build with MkDocs
-        if: matrix.tool == 'mkdocs'
+      - name: Configure Git Credentials
         run: |
-          pip install mkdocs-material
-          mkdocs build --site-dir public
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: ~/.cache 
+          restore-keys: |
+            mkdocs-material-
+      - run: pip install mkdocs-material 
+      - run: mkdocs gh-deploy --force
