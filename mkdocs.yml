@@ -60,6 +60,7 @@ nav:
       - quickstart/whatcountry.md
   - 玩家常识:
       - player/index.md
+      - player/mod/index.md
   - 关于服务器:
       - server/index.md
       - server/rule.md
